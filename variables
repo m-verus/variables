@@ -1,0 +1,47 @@
+//VARIABLES
+
+//variables can have 3 keys (var, let, const). They are empty boxes that contain info. We can change/take out that information whenever we want to. 
+
+var myName = "Matt";
+
+var myFavoriteIceCream = "Mint Chocolate Chip";
+
+var myFavoritePlace = "Long Dong, Taiwan";
+
+var myAge = 39;
+
+console.log(myName);
+console.log(myFavoriteIceCream);
+console.log(myFavoritePlace);
+console.log(myAge); 
+
+//Undefined Variables 
+
+let myFavoriteAnimal; 
+console.log(myFavoriteAnimal);
+
+//Re-assinging Variables
+
+myName = "Chris";
+console.log(myName);
+
+
+//Const key variable names can't be changed. It will result in an error. 
+
+/*
+const bestFood = "Pizza";
+bestFood = "Peanut Butter and Jelly";
+console.log(bestFood);
+*/
+
+
+//String Concatenation 
+
+let favoriteCity = "Tokyo";
+console.log("My favorite city is " + favoriteCity + ".")
+
+//String Concatenation with String Literal ${variableName}
+
+const myNewName = 'Matt';
+const myCity = 'Tokyo';
+console.log(`My name is ${myNewName}. My favorite city is ${myCity}.`);
